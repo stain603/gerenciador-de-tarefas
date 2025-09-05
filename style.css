@@ -1,0 +1,104 @@
+/* ======= Layout Geral ======= */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #ADD8E6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+/* ======= Cabeçalho ======= */
+h1 {
+  background: #0073e6;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ======= Lista de Tarefas ======= */
+.list-group-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #dce3eb;
+  background: #f9fbfd;
+  transition: all 0.2s ease-in-out;
+}
+.list-group-item:hover {
+  background: #eef5fc;
+  transform: scale(1.01);
+}
+
+/* Nome da tarefa */
+.list-group-item h5 {
+  color: #0073e6;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Informações da tarefa */
+.list-group-item p {
+  margin: 2px 0;
+  color: #444;
+}
+
+/* ======= Comentários ======= */
+.list-group-item h6 {
+  margin-top: 10px;
+  color: #0073e6;
+  font-size: 14px;
+}
+.list-group-item form input[type="text"] {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ======= Botões ======= */
+.btn {
+  border-radius: 6px !important;
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+/* Azul (Cadastrar, Salvar) */
+.btn-primary {
+  background-color: #0073e6;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #005 }
+
+  .btn-success {
+  background-color: #27ae60;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #1e8449;
+}
+
+/* ======= Modal ======= */
+.modal-content {
+  border-radius: 12px;
+  border: 1px solid #dce3eb;
+}
+.modal-header {
+  background: #0073e6;
+  color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.modal-footer {
+  background: #f2f6fa;
+  border-top: 1px solid #ddd;
+}
